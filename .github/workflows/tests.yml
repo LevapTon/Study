@@ -12,29 +12,47 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4  # Обновляем до v4
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5  # Обновляем до v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.9'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r 2_курс/Алгоритмы_и_структуры_данных/Парсинг/requirements.txt
+          pip install -r 2_курс/Алгоритмы_и_структуры_данных/requirements.txt
+          pip list
 
-      - name: Create test-results directory
-        run: mkdir -p test-results  # Создаём директорию для отчётов
-
-      - name: Run tests
+      - name: Set up Allure
         run: |
-          pytest 2_курс/Алгоритмы_и_структуры_данных/Парсинг/test_script.py --junitxml=test-results/report.xml
-        continue-on-error: true  # Продолжаем даже при ошибке тестов
+          wget https://github.com/allure-framework/allure2/releases/download/2.30.0/allure-2.30.0.tgz
+          tar -zxvf allure-2.30.0.tgz -C /opt/
+          sudo ln -s /opt/allure-2.30.0/bin/allure /usr/bin/allure
+          allure --version
 
-      - name: Upload test results
-        if: always()  # Выполняется всегда, даже если тесты упали
-        uses: actions/upload-artifact@v4  # Обновляем до v4
+      - name: Run tests and generate Allure results
+        run: |
+          mkdir -p allure-results
+          pytest 2_курс/Алгоритмы_и_структуры_данных/test_script.py --alluredir=allure-results
+        continue-on-error: true
+
+      - name: Generate Allure report
+        run: |
+          allure generate allure-results -o allure-report
+        continue-on-error: true
+
+      - name: Upload Allure results
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
-          name: test-results
-          path: test-results/report.xml
+          name: allure-results
+          path: allure-results/
+
+      - name: Upload Allure report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: allure-report/
