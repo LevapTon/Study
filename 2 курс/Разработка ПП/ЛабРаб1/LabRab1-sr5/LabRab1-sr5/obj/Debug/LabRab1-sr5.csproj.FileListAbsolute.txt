@@ -1,0 +1,10 @@
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб1\LabRab1-sr5\LabRab1-sr5\bin\Debug\LabRab1-sr5.exe.config
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб1\LabRab1-sr5\LabRab1-sr5\bin\Debug\LabRab1-sr5.exe
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб1\LabRab1-sr5\LabRab1-sr5\bin\Debug\LabRab1-sr5.pdb
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб1\LabRab1-sr5\LabRab1-sr5\obj\Debug\LabRab1-sr5.csproj.AssemblyReference.cache
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб1\LabRab1-sr5\LabRab1-sr5\obj\Debug\LabRab1_sr5.Form1.resources
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб1\LabRab1-sr5\LabRab1-sr5\obj\Debug\LabRab1_sr5.Properties.Resources.resources
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб1\LabRab1-sr5\LabRab1-sr5\obj\Debug\LabRab1-sr5.csproj.GenerateResource.cache
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб1\LabRab1-sr5\LabRab1-sr5\obj\Debug\LabRab1-sr5.csproj.CoreCompileInputs.cache
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб1\LabRab1-sr5\LabRab1-sr5\obj\Debug\LabRab1-sr5.exe
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб1\LabRab1-sr5\LabRab1-sr5\obj\Debug\LabRab1-sr5.pdb

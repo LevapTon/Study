@@ -1,0 +1,15 @@
+{
+    "accept": "*/*",
+    "accept-language": "ru,ru-RU;q=0.9,en-US;q=0.8,en;q=0.7",
+    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MTAzMDM2MTIsInZlcnNpb24iOjIsInVzZXIiOiIxMDcxNjc5NjYiLCJzaGFyZF9rZXkiOiIxNCIsImNsaWVudF9pZCI6IndiIiwic2Vzc2lvbl9pZCI6Ijg5ODY0NWQyZDZkZjRlMWRhN2VhZDBiNmQxNzdlM2M3IiwidXNlcl9yZWdpc3RyYXRpb25fZHQiOjE2Nzg3NzM5ODAsInZhbGlkYXRpb25fa2V5IjoiMmI4YTFkMDk0MzkxYTFhYzNlZmNhZDQ4OWEyZTliNmI3YjQ3YmY5Mzc3ZDE3NjAyYzI4MGJkNTk1ZDhlNTk3ZSIsInBob25lIjoicTY3cElvbjU5NUlkNUZNNVR3SzdDUT09In0.dS61PiO7BkMwi7u4l7NPZQ3LmpT8BAccoQsQusIIBHe1YdUyaxEV9z7mQKLriplJnKUSHvX6Y9LhiBo5KSxx2eJL0ZXmKvkJtOyxfTaS4sleLZ9HJiK8Sms1_-Fz_xDR2YapvyAtnCm5P2V6KiF6KNK9wGD7LgqcuMdMbeSOiKpF84LJxOTmISVNRh7UpYyw66rDIYma56STTMSH_I680Q14_WglYt76ZQigpNF0DCzItuY8je11zQYBzDb0fqLIT5wTZhJg74AlzTxNjmTKhEuB8O_mmBMWBtkJtwClPTw2Gq162Dmn3AaKBhd2AI-09cg2cqyG_sSsDje0htJXPw",
+    "sec-ch-ua": "\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Google Chrome\";v=\"122\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "x-queryid": "qid382293257170912223720240313074739",
+    "x-userid": "107167966",
+    "Referer": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%20%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B9",
+    "Referrer-Policy": "no-referrer-when-downgrade"
+}

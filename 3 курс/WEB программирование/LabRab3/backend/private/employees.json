@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "name": "Иванов Иван Иваночив",
+        "post": "Генеральный директор",
+        "description": "Самый целеустремленный человек",
+        "number": "+7-(111)-111-11-11",
+        "mail": "mailmail@mail.ru",
+        "photo": "../../public/assets/img/p1.jpeg",
+        "path": "/director"
+    },
+    {
+        "id": 1,
+        "name": "Смирнова Анастасия Владимировна",
+        "post": "Маркетолог",
+        "description": "Она пишет все эти надписи",
+        "number": "+7-(222)-222-22-22",
+        "mail": "liamliam@mail.ru",
+        "photo": "../../public/assets/img/p3.jpeg",
+        "path": "/marketer"
+    },
+    {
+        "id": 2,
+        "name": "Петров Петр Петрович",
+        "post": "Рабочий",
+        "description": "Он выполняет всю работу",
+        "number": "+7-(333)-333-33-33",
+        "mail": "imalimal@mail.ru",
+        "photo": "../../public/assets/img/p2.jpeg",
+        "path": "/worker"
+    }
+]

@@ -1,0 +1,28 @@
+alligators = read.table("./alligators.txt", header = TRUE)
+
+head(alligators)
+
+plot(alligators$Weight, alligators$Length, pch = 16, col = "blue")
+
+l <- nrow(alligators)
+
+xbar <- mean(alligators$Weight)
+ybar <- mean(alligators$Length)
+
+x_sq <- vector(length = l)
+
+for (i in 1:l) {
+  x_sq[i] <- alligators$Weight[i]^2
+}
+x_sqbar <- mean(x_sq)
+
+y_sq <- vector(length = l)
+for (i in 1:l) {
+  y_sq[i] <- alligators$Length[i]^2
+}
+y_sqbar <- mean(y_sq)
+
+xdoty <- vector(length = l)
+for (i in 1:l) {
+  xdoty[i] <- x[i] * y[i]
+}

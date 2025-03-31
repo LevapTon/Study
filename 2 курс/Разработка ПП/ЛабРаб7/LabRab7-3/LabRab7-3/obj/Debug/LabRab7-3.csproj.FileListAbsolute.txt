@@ -1,0 +1,20 @@
+C:\Users\pp111\source\repos\LabRab7-3\LabRab7-3\bin\Debug\LabRab7-3.exe.config
+C:\Users\pp111\source\repos\LabRab7-3\LabRab7-3\bin\Debug\LabRab7-3.exe
+C:\Users\pp111\source\repos\LabRab7-3\LabRab7-3\bin\Debug\LabRab7-3.pdb
+C:\Users\pp111\source\repos\LabRab7-3\LabRab7-3\obj\Debug\LabRab7-3.csproj.AssemblyReference.cache
+C:\Users\pp111\source\repos\LabRab7-3\LabRab7-3\obj\Debug\LabRab7_3.Form1.resources
+C:\Users\pp111\source\repos\LabRab7-3\LabRab7-3\obj\Debug\LabRab7_3.Properties.Resources.resources
+C:\Users\pp111\source\repos\LabRab7-3\LabRab7-3\obj\Debug\LabRab7-3.csproj.GenerateResource.cache
+C:\Users\pp111\source\repos\LabRab7-3\LabRab7-3\obj\Debug\LabRab7-3.csproj.CoreCompileInputs.cache
+C:\Users\pp111\source\repos\LabRab7-3\LabRab7-3\obj\Debug\LabRab7-3.exe
+C:\Users\pp111\source\repos\LabRab7-3\LabRab7-3\obj\Debug\LabRab7-3.pdb
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб7\LabRab7-3\LabRab7-3\bin\Debug\LabRab7-3.exe.config
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб7\LabRab7-3\LabRab7-3\bin\Debug\LabRab7-3.exe
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб7\LabRab7-3\LabRab7-3\bin\Debug\LabRab7-3.pdb
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб7\LabRab7-3\LabRab7-3\obj\Debug\LabRab7-3.csproj.AssemblyReference.cache
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб7\LabRab7-3\LabRab7-3\obj\Debug\LabRab7_3.Form1.resources
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб7\LabRab7-3\LabRab7-3\obj\Debug\LabRab7_3.Properties.Resources.resources
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб7\LabRab7-3\LabRab7-3\obj\Debug\LabRab7-3.csproj.GenerateResource.cache
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб7\LabRab7-3\LabRab7-3\obj\Debug\LabRab7-3.csproj.CoreCompileInputs.cache
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб7\LabRab7-3\LabRab7-3\obj\Debug\LabRab7-3.exe
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб7\LabRab7-3\LabRab7-3\obj\Debug\LabRab7-3.pdb

@@ -1,0 +1,10 @@
+C:\Users\pp111\source\repos\LabRab3-sr-1\LabRab3-sr-1\bin\Debug\LabRab3-sr-1.exe.config
+C:\Users\pp111\source\repos\LabRab3-sr-1\LabRab3-sr-1\bin\Debug\LabRab3-sr-1.exe
+C:\Users\pp111\source\repos\LabRab3-sr-1\LabRab3-sr-1\bin\Debug\LabRab3-sr-1.pdb
+C:\Users\pp111\source\repos\LabRab3-sr-1\LabRab3-sr-1\obj\Debug\LabRab3-sr-1.csproj.AssemblyReference.cache
+C:\Users\pp111\source\repos\LabRab3-sr-1\LabRab3-sr-1\obj\Debug\LabRab3_sr_1.Form1.resources
+C:\Users\pp111\source\repos\LabRab3-sr-1\LabRab3-sr-1\obj\Debug\LabRab3_sr_1.Properties.Resources.resources
+C:\Users\pp111\source\repos\LabRab3-sr-1\LabRab3-sr-1\obj\Debug\LabRab3-sr-1.csproj.GenerateResource.cache
+C:\Users\pp111\source\repos\LabRab3-sr-1\LabRab3-sr-1\obj\Debug\LabRab3-sr-1.csproj.CoreCompileInputs.cache
+C:\Users\pp111\source\repos\LabRab3-sr-1\LabRab3-sr-1\obj\Debug\LabRab3-sr-1.exe
+C:\Users\pp111\source\repos\LabRab3-sr-1\LabRab3-sr-1\obj\Debug\LabRab3-sr-1.pdb

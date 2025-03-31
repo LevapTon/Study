@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Изменение зала</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<body>
+    <h2 class="page-head-title">Измените поля</h2>
+    <div>
+        <form class="page-head" action="POST">
+            <div class="addBox">
+                <div class="addBoxItem">
+                    <p>Наименование</p>
+                    <input 
+                        class="page-head-elements"
+                        type="text" 
+                        name="name" 
+                        value="<%= result['branch_name'] %>" 
+                        placeholder="Введите название"
+                        required
+                    />
+                </div>
+                <div class="addBoxItem">
+                    <p>Город</p>
+                    <input 
+                        class="page-head-elements"
+                        type="text" 
+                        name="city" 
+                        value="<%= result['branch_city'] %>" 
+                        placeholder="Введите город"
+                        required
+                    />
+                </div>
+                <div class="addBoxItem">
+                    <p>Адрес</p>
+                    <input 
+                        class="page-head-elements"
+                        type="text" 
+                        name="address" 
+                        value="<%= result['branch_address'] %>" 
+                        placeholder="Введите адрес"
+                        required
+                    />
+                </div>
+                <fieldset>
+                    <legend>Выберите рабочие дни</legend>
+                    <div>
+                        <input type="checkbox" id="monday" name="workdays" value="пн" <% if (result['branch_work_days'].includes('пн')) { %>checked<% } %> />
+                        <label for="monday">Понедельник</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="tuesday" name="workdays" value="вт" <% if (result['branch_work_days'].includes('вт')) { %>checked<% } %> />
+                        <label for="tuesday">Вторник</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="music" name="workdays" value="ср" <% if (result['branch_work_days'].includes('ср')) { %>checked<% } %> />
+                        <label for="wednesday">Среда</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="music" name="workdays" value="чт" <% if (result['branch_work_days'].includes('чт')) { %>checked<% } %> />
+                        <label for="thursday">Четверг</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="music" name="workdays" value="пт" <% if (result['branch_work_days'].includes('пт')) { %>checked<% } %> />
+                        <label for="friday">Пятница</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="music" name="workdays" value="сб" <% if (result['branch_work_days'].includes('сб')) { %>checked<% } %> />
+                        <label for="saturday">Суббота</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="music" name="workdays" value="вс" <% if (result['branch_work_days'].includes('вс')) { %>checked<% } %> />
+                        <label for="sunday">Воскресенье</label>
+                    </div>
+                </fieldset>
+                <div class="addBoxItem">
+                    <p>Время начала работы</p>
+                    <input 
+                        class="page-head-elements"
+                        type="time" 
+                        name="time_start" 
+                        value="<%= result['branch_work_time_start'] %>"
+                        required
+                    />
+                </div>
+                <div class="addBoxItem">
+                    <p>Время окончания работы</p>
+                    <input 
+                        class="page-head-elements"
+                        type="time" 
+                        name="time_end" 
+                        value="<%= result['branch_work_time_end'] %>" 
+                        placeholder="Введите время"
+                        required
+                    />
+                </div>
+                <div class="addBoxItem">
+                    <button 
+                        type="submit" 
+                        class="page-head-elements"
+                        formaction="/changeGym/:<%= result['branch_id'] %>" 
+                        formmethod="post">
+                        Изменить
+                    </button>
+                </div>
+            </div>
+        </form>
+        <form action="GET">
+            <button 
+                class="del"
+                formaction="/" 
+                formmethod="get">
+                На главную
+            </button>
+        </form>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Секции</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<!-- <header>
+    <p><%= result[1] %></p>
+    <form action="get" class="nav-bar">
+        <button
+            type="submit" 
+            formaction="/login" 
+            formmethod="get">
+            Вход
+        </button>
+        <button
+            type="submit" 
+            formaction="/regist" 
+            formmethod="get">
+            Регистрация
+        </button>
+    </form>
+</header> -->
+
+<body>       
+    <h3 class="page-head-title">Выбор фильтра</h3>
+    <form class="page-head addBoxItem">
+        <div class="addBoxItem">
+            <p>Секция</p>
+            <select class="page-head-elements" name="section" id="status_choose">
+                <option>Без фильтра</option>
+                <% for (let elem of result[0].map(x => x.section_name).sort()) { %>
+                    <option><%= elem %></option>
+                <% } %>
+            </select>
+        </div>
+        <div class="addBoxItem">
+            <p>Цена от</p>
+            <input 
+                class="page-head-elements"
+                type="number" 
+                name="price_bottom" 
+                value="" 
+                placeholder="Введите сумму"
+            />
+        </div>
+        <div class="addBoxItem">
+            <p>Цена до</p>
+            <input 
+                class="page-head-elements"
+                type="number" 
+                name="price_upper" 
+                value="" 
+                placeholder="Введите сумму"
+            />
+        </div>
+        <button
+            type="submit" 
+            class="page-head-elements"
+            formaction="/gymServises/:<%= result[1] %>" 
+            formmethod="get">
+            Выполнить фильтрацию
+        </button>
+        <button
+            type="submit" 
+            class="page-head-elements"
+            formaction="/addNewGymService/:<%= result[1] %>" 
+            formmethod="get">
+            Изменить услуги
+        </button>
+        <button 
+            class="del"
+            formaction="/" 
+            formmethod="get">
+            На главную
+        </button>
+    </form>
+
+    <br>
+    <table class="dialog">
+        <tr>
+            <th>ID</th>
+            <th>Название</th>
+            <th>Экипировка</th>
+            <th>Стоимость (руб.)</th>
+        </tr>
+        <% for (let i = 0; i < result[0].length; i++) { %>
+        <tr>
+            <td class="item">
+                <%= result[0][i].service_id %>
+            </td>
+            <td class="item">
+                <%= result[0][i].section_name %>
+            </td>
+            <td class="item">
+                <%= result[0][i].section_equip %>
+            </td>
+            <td class="item">
+                <%= result[0][i].section_price %>
+            </td>
+        </tr>
+        <% } %>
+    </table>
+</body>
+
+</html>

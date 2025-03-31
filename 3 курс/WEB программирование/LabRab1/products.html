@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Мой сайт - Магазин обуви "Ромашка"</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+        <link rel="stylesheet" href="assets/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/Schuhe-lineart.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"> Мой сайт</a>
+                        <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle
+                        navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                href="index.html"><i class="bi-house"></i> Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html"><i class="bi-basket"></i> Товары</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html"><i class="bi-emoji-smile"></i> О нас</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container">
+            <h1>Список товаров</h1>
+            <button class="btn btn-warning" title="К таблице" onclick="location.href='prod_table.html'">
+                <span>Перейти к табличному варианту</span>
+            </button>
+            <div class="card shadow rounded my-3">
+                <div class="card-body">
+                    <div class="row">
+                            <div class="col-md-2">
+                                <img src="assets/img/t1.jpg" class="product-image">
+                            </div>
+                        <div class="col-md-10 d-flex flex-column">
+                            <div class="product-name">Туристические ботинки Bogdan</div>
+                            <div class="product-description">Отличная, удобная, непромокаемая обувь для летнего сезона</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="d-flex justify-content-end">
+                                <div class="product-price">Цена: <strong>4,500 р.</strong></div>
+                                <button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                                    <i class="bi bi-cart"></i> <span class="d-none d-md-inline">В корзину</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow rounded my-3">
+                <div class="card-body">
+                    <div class="row">
+                            <div class="col-md-2">
+                                <img src="assets/img/t2.jpg" class="product-image">
+                            </div>
+                        <div class="col-md-10 d-flex flex-column">
+                            <div class="product-name">Вечерние туфли (женские) Zoya Fyodorovna</div>
+                            <div class="product-description">Элегантные туфли для торжественных церемоний</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="d-flex justify-content-end">
+                                <div class="product-price">Цена: <strong>2,250 р.</strong></div>
+                                <button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                                    <i class="bi bi-cart"></i> <span class="d-none d-md-inline">В корзину</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow rounded my-3">
+                <div class="card-body">
+                    <div class="row">
+                            <div class="col-md-2">
+                                <img src="assets/img/t3.jpg" class="product-image">
+                            </div>
+                        <div class="col-md-10 d-flex flex-column">
+                            <div class="product-name">Кросовки Jamshutany</div>
+                            <div class="product-description">Легкая спортивная обувь для динамичных тренировок</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="d-flex justify-content-end">
+                                <div class="product-price">Цена: <strong>40,000 р.</strong></div>
+                                <button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                                    <i class="bi bi-cart"></i> <span class="d-none d-md-inline">В корзину</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+        </footer>
+    </body>
+</html>

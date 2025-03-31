@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Спорткомплексы</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<header>
+    <form action="get" class="nav-bar">
+        <p style="color: aliceblue; margin-right: 3px;"><%= result[1] %></p>
+        <% if (result[1] == "Вход не выполнен") { %>
+        <button
+            type="submit" 
+            formaction="/login" 
+            formmethod="get">
+            Войти
+        </button>
+        <% } else { %>
+        <button
+            type="submit" 
+            formaction="/logout" 
+            formmethod="get">
+            Выйти
+        </button>
+        <% } %>
+        <% if (result[2] == 1) { %>
+        <button
+            type="submit" 
+            formaction="/usersList" 
+            formmethod="get">
+            Список пользователей
+        </button>
+        <button
+            type="submit" 
+            formaction="/regist" 
+            formmethod="get">
+            Добавить пользователя
+        </button>
+        <% } %>
+    </form>
+</header>
+
+<body>
+    <div>
+        <div>
+            <h3 class="page-head-title">Выбор фильтра</h3>
+        </div>
+        <div>
+            <form class="page-head addBoxItem">
+                <div class="addBoxItem">
+                    <p>Город</p>
+                    <select class="page-head-elements" name="city" id="status_choose">
+                        <option>Без фильтра</option>
+                        <% 
+                        let uniqueCities = new Set();
+                        for (let i = 0; i < result[0].length; i++) {
+                            uniqueCities.add(result[0][i].branch_city);
+                        }
+                        uniqueCities = Array.from(uniqueCities);
+                        %>
+                        <% for (let i = 0; i < uniqueCities.length; i++) { %>
+                        <option><%= uniqueCities[i] %></option>
+                        <% } %>
+                    </select>
+                </div>
+                <div  class="addBoxItem">
+                    <p>Начало работы</p>
+                    <input 
+                        class="page-head-elements"
+                        type="time" 
+                        name="time_start" 
+                        value="" 
+                    >
+                </div>                
+                <div  class="addBoxItem">
+                    <p>Окончание работы</p>
+                    <input 
+                        class="page-head-elements"
+                        type="time" 
+                        name="time_end" 
+                        value="" 
+                    >
+                </div>
+                <div class="addBoxItem">
+                    <button
+                        type="submit" 
+                        class="page-head-elements"
+                        formaction="/" 
+                        formmethod="get">
+                        Выполнить фильтрацию
+                    </button>
+                    <% if (result[2] == 1) { %>
+                    <button
+                        type="submit" 
+                        class="page-head-elements"
+                        formaction="/addNewGym" 
+                        formmethod="get">
+                        Добавить филиал
+                    </button>
+                    <% } %>
+                </div>
+            </form>
+        </div>
+    </div> 
+
+    <br>
+    <% if (result[2] == 1) { %>
+    <table class="dialog">
+        <tr>
+            <th>ID</th>
+            <th>Название</th>
+            <th>Город</th>
+            <th>Адрес</th>
+            <th>Рабочие дни</th>
+            <th>Начало работы</th>
+            <th>Окончание работы</th>
+            <th>Действия</th>
+        </tr>
+        <% for (let i = 0; i < result[0].length; i++) { %>
+        <tr>
+            <td class="item">
+                <%= result[0][i].branch_id %>
+            </td>
+            <td class="item">
+                <%= result[0][i].branch_name %>
+            </td>
+            <td class="item">
+                <%= result[0][i].branch_city %>
+            </td>
+            <td class="item">
+                <%= result[0][i].branch_address %>
+            </td>
+            <td class="item">
+                <%= result[0][i].branch_work_days %>
+            </td>
+            <td class="item">
+                <%= result[0][i].branch_work_time_start %>
+            </td>
+            <td class="item">
+                <%= result[0][i].branch_work_time_end %>
+            </td>
+            <td class="table-buttons">
+                <form action="GET"> 
+                    <button
+                        type="submit" 
+                        class="chen-button"
+                        formaction="/gymServises/:<%= result[0][i].branch_id %>" 
+                        formmethod="get">
+                        Открыть
+                    </button>
+                </form>
+
+                <form action="GET">
+                    <button
+                        type="submit" 
+                        class="chen-button"
+                        formaction="/changeGym/:<%= result[0][i].branch_id %>" 
+                        formmethod="get">
+                        Изменить
+                    </button>
+                </form>
+
+                <form action="POST">
+                    <button
+                        type="submit" 
+                        class="del-button"
+                        formaction="/:<%= result[0][i].branch_id %>" 
+                        formmethod="post">
+                        Удалить
+                    </button>
+                </form>
+            </td>
+        </tr>
+        <% } %>
+    </table>
+    <% } else { %>
+    <table class="dialog">
+        <tr>
+            <th>ID</th>
+            <th>Название</th>
+            <th>Город</th>
+            <th>Адрес</th>
+            <th>Рабочие дни</th>
+            <th>Начало работы</th>
+            <th>Окончание работы</th>
+            <th>Действия</th>
+        </tr>
+        <% for (let i = 0; i < result[0].length; i++) { %>
+        <% if (result[0][i].branch_id == result[3]) { %>
+        <tr>
+            <td class="item">
+                <%= result[0][i].branch_id %>
+            </td>
+            <td class="item">
+                <%= result[0][i].branch_name %>
+            </td>
+            <td class="item">
+                <%= result[0][i].branch_city %>
+            </td>
+            <td class="item">
+                <%= result[0][i].branch_address %>
+            </td>
+            <td class="item">
+                <%= result[0][i].branch_work_days %>
+            </td>
+            <td class="item">
+                <%= result[0][i].branch_work_time_start %>
+            </td>
+            <td class="item">
+                <%= result[0][i].branch_work_time_end %>
+            </td>
+            <td class="table-buttons">
+                <form action="GET"> 
+                    <button
+                        type="submit" 
+                        class="chen-button"
+                        formaction="/gymServises/:<%= result[0][i].branch_id %>" 
+                        formmethod="get">
+                        Открыть
+                    </button>
+                </form>
+            </td>
+        </tr>
+        <% } %>
+        <% } %>
+    </table>
+    <% } %>
+</body>
+</html>

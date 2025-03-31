@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Регистрация</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<body>
+    <h3 class="page-head-title">Регистрация</h3>
+    <form class="page-head">
+        <div class="addBox">
+            <div class="addBoxItem">
+                <input 
+                    class="page-head-elements"
+                    type="text" 
+                    name="name" 
+                    value="" 
+                    placeholder="Введите логин"
+                />
+            </div>
+            <div class="addBoxItem">
+                <input 
+                    class="page-head-elements"
+                    type="password" 
+                    name="password" 
+                    value="" 
+                    placeholder="Введите пароль"
+                />
+            </div>
+            <div class="addBoxItem">
+                <p>Роль</p>
+                <select class="page-head-elements" name="role" id="status_choose">
+                    <% for (let i = 0; i < result[0].length; i++) { %>
+                        <option value="<%= result[0][i].role_id %>"><%= result[0][i].role_name %></option>
+                    <% } %>
+                </select>
+            </div>
+            <div class="addBoxItem">
+                <p>Зал</p>
+                <select class="page-head-elements" name="gym" id="status_choose">
+                    <% for (let i = 0; i < result[1].length; i++) { %>
+                        <option value="<%= result[1][i].branch_id %>"><%= result[1][i].branch_name %></option>
+                    <% } %>
+                </select>
+            </div>
+            <div class="addBoxItem">
+                <button
+                    type="submit" 
+                    class="page-head-elements"
+                    formaction="/regist" 
+                    formmethod="post">
+                    Создать
+                </button>
+                <button
+                    type="submit" 
+                    class="page-head-elements"
+                    formaction="/" 
+                    formmethod="get">
+                    На главную
+                </button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

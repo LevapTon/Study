@@ -1,0 +1,20 @@
+C:\Users\pp111\source\repos\LabRab6-sr-1\LabRab6-sr-1\bin\Debug\LabRab6-sr-1.exe.config
+C:\Users\pp111\source\repos\LabRab6-sr-1\LabRab6-sr-1\bin\Debug\LabRab6-sr-1.exe
+C:\Users\pp111\source\repos\LabRab6-sr-1\LabRab6-sr-1\bin\Debug\LabRab6-sr-1.pdb
+C:\Users\pp111\source\repos\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6-sr-1.csproj.AssemblyReference.cache
+C:\Users\pp111\source\repos\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6_sr_1.Form1.resources
+C:\Users\pp111\source\repos\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6_sr_1.Properties.Resources.resources
+C:\Users\pp111\source\repos\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6-sr-1.csproj.GenerateResource.cache
+C:\Users\pp111\source\repos\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6-sr-1.csproj.CoreCompileInputs.cache
+C:\Users\pp111\source\repos\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6-sr-1.exe
+C:\Users\pp111\source\repos\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6-sr-1.pdb
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб6\LabRab6-sr-1\LabRab6-sr-1\bin\Debug\LabRab6-sr-1.exe.config
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб6\LabRab6-sr-1\LabRab6-sr-1\bin\Debug\LabRab6-sr-1.exe
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб6\LabRab6-sr-1\LabRab6-sr-1\bin\Debug\LabRab6-sr-1.pdb
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб6\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6-sr-1.csproj.AssemblyReference.cache
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб6\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6_sr_1.Form1.resources
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб6\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6_sr_1.Properties.Resources.resources
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб6\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6-sr-1.csproj.GenerateResource.cache
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб6\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6-sr-1.csproj.CoreCompileInputs.cache
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб6\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6-sr-1.exe
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб6\LabRab6-sr-1\LabRab6-sr-1\obj\Debug\LabRab6-sr-1.pdb

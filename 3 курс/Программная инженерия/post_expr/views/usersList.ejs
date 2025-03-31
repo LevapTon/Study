@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Пользователи</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<body>
+    <div>
+        <div>
+            <h3 class="page-head-title">Пользователи</h3>
+        </div>
+        <div class="boxFilter">
+            <form class="page-head addBoxItem">
+                <div class="addBoxItem">
+                    <p>Роль</p>
+                    <select class="page-head-elements" name="role" id="status_choose">
+                        <option>Без фильтра</option>
+                        <% for (let i = 0; i < result[1].length; i++) { %>
+                            <option value="<%= result[1][i].role_id %>"><%= result[1][i].role_name %></option>
+                        <% } %>
+                    </select>
+                </div>
+                <div class="addBoxItem">
+                    <p>Зал</p>
+                    <select class="page-head-elements" name="gym" id="status_choose">
+                        <option>Без фильтра</option>
+                        <% for (let i = 0; i < result[2].length; i++) { %>
+                            <option value="<%= result[2][i].branch_id %>"><%= result[2][i].branch_name %></option>
+                        <% } %>
+                    </select>
+                </div>
+                <div class="addBoxItem">
+                    <button
+                        type="submit" 
+                        class="page-head-elements"
+                        formaction="/usersList" 
+                        formmethod="get">
+                        Выполнить фильтрацию
+                    </button>                   
+                </div>
+            </form>
+            <form action="GET">
+                <button 
+                    class="page-head-elements"
+                    formaction="/" 
+                    formmethod="get">
+                    На главную
+                </button>
+            </form>
+        </div>
+    </div> 
+
+    <br>
+    <table class="dialog">
+        <tr>
+            <th>ID</th>
+            <th>Логин</th>
+            <th>Роль</th>
+            <th>Зал</th>
+            <th>Действия</th>
+        </tr>
+        <% for (let i = 0; i < result[0].length; i++) { %>
+        <tr>
+            <td class="item">
+                <%= result[0][i].user_id %>
+            </td>
+            <td class="item">
+                <%= result[0][i].username %>
+            </td>
+            <td class="item">
+                <%= result[0][i].role_name %>
+            </td>
+            <td class="item">
+                <%= result[0][i].branch_name %>
+            </td>
+            <td class="table-buttons">
+                <form action="GET"> 
+                    <button
+                        type="submit" 
+                        class="chen-button"
+                        formaction="/userChange/:<%= result[0][i].user_id %>" 
+                        formmethod="get">
+                        Изменить
+                    </button>
+                </form>
+                <form action="POST">
+                    <button
+                        type="submit" 
+                        class="del-button"
+                        formaction="/gymServises/:<%= result[0][i].user_id %>" 
+                        formmethod="post">
+                        Удалить
+                    </button>
+                </form>
+            </td>
+        </tr>
+        <% } %>
+    </table>
+
+</body>
+
+</html>

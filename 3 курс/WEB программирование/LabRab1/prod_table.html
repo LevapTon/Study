@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Мой сайт - Магазин обуви "Ромашка"</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+        <link rel="stylesheet" href="assets/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/Schuhe-lineart.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"> Мой сайт</a>
+                        <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle
+                        navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                href="index.html"><i class="bi-house"></i> Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html"><i class="bi-basket"></i> Товары</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html"><i class="bi-emoji-smile"></i> О нас</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container">
+            <h1>Список товаров</h1>
+            <button class="btn btn-warning" title="К продуктам" onclick="location.href='products.html'">
+                <span>Перейти к стандартному варианту</span>
+            </button>
+            <div>
+                <table class="table">
+                    <tr>
+                        <th>№</th>
+                        <th>Наименование</th>
+                        <th>Описание</th>
+                        <th>Стоимость</th>
+                        <th>Купить</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Туристические ботинки Bogdan</td>
+                        <td>Отличная, удобная, непромокаемая обувь для летнего сезона</td>
+                        <td>4,500 р.</td>
+                        <td><button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                            <i class="bi bi-cart"></i> <span class="d-none d-md-inline">В корзину</span>
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Вечерние туфли (женские) Zoya Fyodorovna</td>
+                        <td>Элегантные туфли для торжественных церемоний</td>
+                        <td>2,250 р.</td>
+                        <td><button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                            <i class="bi bi-cart"></i> <span class="d-none d-md-inline">В корзину</span>
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Кросовки Jamshutany</td>
+                        <td>Легкая спортивная обувь для динамичных тренировок</td>
+                        <td>40,000 р.</td>
+                        <td><button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                            <i class="bi bi-cart"></i> <span class="d-none d-md-inline">В корзину</span>
+                        </button></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+
+        <footer>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "name": "Xiaomi Pad 5",
+        "href": "https://n-katalog.ru/product/xiaomi-pad-5-128gb",
+        "cost": "от 24816 до 34299 руб."
+    },
+    {
+        "id": 2,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-64gb",
+        "cost": "от 25839 до 53546 руб."
+    },
+    {
+        "id": 3,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-64gb",
+        "cost": "от 46397 до 89906 руб."
+    },
+    {
+        "id": 4,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-256gb",
+        "cost": "от 37964 до 50490 руб."
+    },
+    {
+        "id": 5,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-128gb",
+        "cost": "от 24999 руб."
+    },
+    {
+        "id": 6,
+        "name": "Apple iPad mini 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-mini-2021-64gb",
+        "cost": "от 37280 до 82900 руб."
+    },
+    {
+        "id": 7,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb",
+        "cost": "от 59490 до 77990 руб."
+    },
+    {
+        "id": 8,
+        "name": "Realme Pad Mini",
+        "href": "https://n-katalog.ru/product/realme-pad-mini-64gb",
+        "cost": "от 11617 до 18150 руб."
+    },
+    {
+        "id": 9,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-64gb",
+        "cost": "от 17999 руб."
+    },
+    {
+        "id": 10,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb-5g",
+        "cost": "от 94990 руб."
+    },
+    {
+        "id": 11,
+        "name": "Xiaomi Pad 5",
+        "href": "https://n-katalog.ru/product/xiaomi-pad-5-128gb",
+        "cost": "от 24816 до 34299 руб."
+    },
+    {
+        "id": 12,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-64gb",
+        "cost": "от 25839 до 53546 руб."
+    },
+    {
+        "id": 13,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-64gb",
+        "cost": "от 46397 до 89906 руб."
+    },
+    {
+        "id": 14,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-256gb",
+        "cost": "от 37964 до 50490 руб."
+    },
+    {
+        "id": 15,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-128gb",
+        "cost": "от 24999 руб."
+    },
+    {
+        "id": 16,
+        "name": "Apple iPad mini 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-mini-2021-64gb",
+        "cost": "от 37280 до 82900 руб."
+    },
+    {
+        "id": 17,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb",
+        "cost": "от 59490 до 77990 руб."
+    },
+    {
+        "id": 18,
+        "name": "Realme Pad Mini",
+        "href": "https://n-katalog.ru/product/realme-pad-mini-64gb",
+        "cost": "от 11617 до 18150 руб."
+    },
+    {
+        "id": 19,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-64gb",
+        "cost": "от 17999 руб."
+    },
+    {
+        "id": 20,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb-5g",
+        "cost": "от 94990 руб."
+    },
+    {
+        "id": 21,
+        "name": "Xiaomi Pad 5",
+        "href": "https://n-katalog.ru/product/xiaomi-pad-5-128gb",
+        "cost": "от 24816 до 34299 руб."
+    },
+    {
+        "id": 22,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-64gb",
+        "cost": "от 25839 до 53546 руб."
+    },
+    {
+        "id": 23,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-64gb",
+        "cost": "от 46397 до 89906 руб."
+    },
+    {
+        "id": 24,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-256gb",
+        "cost": "от 37964 до 50490 руб."
+    },
+    {
+        "id": 25,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-128gb",
+        "cost": "от 24999 руб."
+    },
+    {
+        "id": 26,
+        "name": "Apple iPad mini 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-mini-2021-64gb",
+        "cost": "от 37280 до 82900 руб."
+    },
+    {
+        "id": 27,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb",
+        "cost": "от 59490 до 77990 руб."
+    },
+    {
+        "id": 28,
+        "name": "Realme Pad Mini",
+        "href": "https://n-katalog.ru/product/realme-pad-mini-64gb",
+        "cost": "от 11617 до 18150 руб."
+    },
+    {
+        "id": 29,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-64gb",
+        "cost": "от 17999 руб."
+    },
+    {
+        "id": 30,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb-5g",
+        "cost": "от 94990 руб."
+    },
+    {
+        "id": 31,
+        "name": "Xiaomi Pad 5",
+        "href": "https://n-katalog.ru/product/xiaomi-pad-5-128gb",
+        "cost": "от 24816 до 34299 руб."
+    },
+    {
+        "id": 32,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-64gb",
+        "cost": "от 25839 до 53546 руб."
+    },
+    {
+        "id": 33,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-64gb",
+        "cost": "от 46397 до 89906 руб."
+    },
+    {
+        "id": 34,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-256gb",
+        "cost": "от 37964 до 50490 руб."
+    },
+    {
+        "id": 35,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-128gb",
+        "cost": "от 24999 руб."
+    },
+    {
+        "id": 36,
+        "name": "Apple iPad mini 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-mini-2021-64gb",
+        "cost": "от 37280 до 82900 руб."
+    },
+    {
+        "id": 37,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb",
+        "cost": "от 59490 до 77990 руб."
+    },
+    {
+        "id": 38,
+        "name": "Realme Pad Mini",
+        "href": "https://n-katalog.ru/product/realme-pad-mini-64gb",
+        "cost": "от 11617 до 18150 руб."
+    },
+    {
+        "id": 39,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-64gb",
+        "cost": "от 17999 руб."
+    },
+    {
+        "id": 40,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb-5g",
+        "cost": "от 94990 руб."
+    },
+    {
+        "id": 41,
+        "name": "Xiaomi Pad 5",
+        "href": "https://n-katalog.ru/product/xiaomi-pad-5-128gb",
+        "cost": "от 24816 до 34299 руб."
+    },
+    {
+        "id": 42,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-64gb",
+        "cost": "от 25839 до 53546 руб."
+    },
+    {
+        "id": 43,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-64gb",
+        "cost": "от 46397 до 89906 руб."
+    },
+    {
+        "id": 44,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-256gb",
+        "cost": "от 37964 до 50490 руб."
+    },
+    {
+        "id": 45,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-128gb",
+        "cost": "от 24999 руб."
+    },
+    {
+        "id": 46,
+        "name": "Apple iPad mini 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-mini-2021-64gb",
+        "cost": "от 37280 до 82900 руб."
+    },
+    {
+        "id": 47,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb",
+        "cost": "от 59490 до 77990 руб."
+    },
+    {
+        "id": 48,
+        "name": "Realme Pad Mini",
+        "href": "https://n-katalog.ru/product/realme-pad-mini-64gb",
+        "cost": "от 11617 до 18150 руб."
+    },
+    {
+        "id": 49,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-64gb",
+        "cost": "от 17999 руб."
+    },
+    {
+        "id": 50,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb-5g",
+        "cost": "от 94990 руб."
+    },
+    {
+        "id": 51,
+        "name": "Xiaomi Pad 5",
+        "href": "https://n-katalog.ru/product/xiaomi-pad-5-128gb",
+        "cost": "от 24816 до 34299 руб."
+    },
+    {
+        "id": 52,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-64gb",
+        "cost": "от 25839 до 53546 руб."
+    },
+    {
+        "id": 53,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-64gb",
+        "cost": "от 46397 до 89906 руб."
+    },
+    {
+        "id": 54,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-256gb",
+        "cost": "от 37964 до 50490 руб."
+    },
+    {
+        "id": 55,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-128gb",
+        "cost": "от 24999 руб."
+    },
+    {
+        "id": 56,
+        "name": "Apple iPad mini 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-mini-2021-64gb",
+        "cost": "от 37280 до 82900 руб."
+    },
+    {
+        "id": 57,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb",
+        "cost": "от 59490 до 77990 руб."
+    },
+    {
+        "id": 58,
+        "name": "Realme Pad Mini",
+        "href": "https://n-katalog.ru/product/realme-pad-mini-64gb",
+        "cost": "от 11617 до 18150 руб."
+    },
+    {
+        "id": 59,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-64gb",
+        "cost": "от 17999 руб."
+    },
+    {
+        "id": 60,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb-5g",
+        "cost": "от 94990 руб."
+    },
+    {
+        "id": 61,
+        "name": "Xiaomi Pad 5",
+        "href": "https://n-katalog.ru/product/xiaomi-pad-5-128gb",
+        "cost": "от 24816 до 34299 руб."
+    },
+    {
+        "id": 62,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-64gb",
+        "cost": "от 25839 до 53546 руб."
+    },
+    {
+        "id": 63,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-64gb",
+        "cost": "от 46397 до 89906 руб."
+    },
+    {
+        "id": 64,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-256gb",
+        "cost": "от 37964 до 50490 руб."
+    },
+    {
+        "id": 65,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-128gb",
+        "cost": "от 24999 руб."
+    },
+    {
+        "id": 66,
+        "name": "Apple iPad mini 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-mini-2021-64gb",
+        "cost": "от 37280 до 82900 руб."
+    },
+    {
+        "id": 67,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb",
+        "cost": "от 59490 до 77990 руб."
+    },
+    {
+        "id": 68,
+        "name": "Realme Pad Mini",
+        "href": "https://n-katalog.ru/product/realme-pad-mini-64gb",
+        "cost": "от 11617 до 18150 руб."
+    },
+    {
+        "id": 69,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-64gb",
+        "cost": "от 17999 руб."
+    },
+    {
+        "id": 70,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb-5g",
+        "cost": "от 94990 руб."
+    },
+    {
+        "id": 71,
+        "name": "Xiaomi Pad 5",
+        "href": "https://n-katalog.ru/product/xiaomi-pad-5-128gb",
+        "cost": "от 24816 до 34299 руб."
+    },
+    {
+        "id": 72,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-64gb",
+        "cost": "от 25839 до 53546 руб."
+    },
+    {
+        "id": 73,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-64gb",
+        "cost": "от 46397 до 89906 руб."
+    },
+    {
+        "id": 74,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-256gb",
+        "cost": "от 37964 до 50490 руб."
+    },
+    {
+        "id": 75,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-128gb",
+        "cost": "от 24999 руб."
+    },
+    {
+        "id": 76,
+        "name": "Apple iPad mini 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-mini-2021-64gb",
+        "cost": "от 37280 до 82900 руб."
+    },
+    {
+        "id": 77,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb",
+        "cost": "от 59490 до 77990 руб."
+    },
+    {
+        "id": 78,
+        "name": "Realme Pad Mini",
+        "href": "https://n-katalog.ru/product/realme-pad-mini-64gb",
+        "cost": "от 11617 до 18150 руб."
+    },
+    {
+        "id": 79,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-64gb",
+        "cost": "от 17999 руб."
+    },
+    {
+        "id": 80,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb-5g",
+        "cost": "от 94990 руб."
+    },
+    {
+        "id": 81,
+        "name": "Xiaomi Pad 5",
+        "href": "https://n-katalog.ru/product/xiaomi-pad-5-128gb",
+        "cost": "от 24816 до 34299 руб."
+    },
+    {
+        "id": 82,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-64gb",
+        "cost": "от 25839 до 53546 руб."
+    },
+    {
+        "id": 83,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-64gb",
+        "cost": "от 46397 до 89906 руб."
+    },
+    {
+        "id": 84,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-256gb",
+        "cost": "от 37964 до 50490 руб."
+    },
+    {
+        "id": 85,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-128gb",
+        "cost": "от 24999 руб."
+    },
+    {
+        "id": 86,
+        "name": "Apple iPad mini 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-mini-2021-64gb",
+        "cost": "от 37280 до 82900 руб."
+    },
+    {
+        "id": 87,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb",
+        "cost": "от 59490 до 77990 руб."
+    },
+    {
+        "id": 88,
+        "name": "Realme Pad Mini",
+        "href": "https://n-katalog.ru/product/realme-pad-mini-64gb",
+        "cost": "от 11617 до 18150 руб."
+    },
+    {
+        "id": 89,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-64gb",
+        "cost": "от 17999 руб."
+    },
+    {
+        "id": 90,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb-5g",
+        "cost": "от 94990 руб."
+    },
+    {
+        "id": 91,
+        "name": "Xiaomi Pad 5",
+        "href": "https://n-katalog.ru/product/xiaomi-pad-5-128gb",
+        "cost": "от 24816 до 34299 руб."
+    },
+    {
+        "id": 92,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-64gb",
+        "cost": "от 25839 до 53546 руб."
+    },
+    {
+        "id": 93,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-64gb",
+        "cost": "от 46397 до 89906 руб."
+    },
+    {
+        "id": 94,
+        "name": "Apple iPad 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-2021-256gb",
+        "cost": "от 37964 до 50490 руб."
+    },
+    {
+        "id": 95,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-128gb",
+        "cost": "от 24999 руб."
+    },
+    {
+        "id": 96,
+        "name": "Apple iPad mini 2021",
+        "href": "https://n-katalog.ru/product/apple-ipad-mini-2021-64gb",
+        "cost": "от 37280 до 82900 руб."
+    },
+    {
+        "id": 97,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb",
+        "cost": "от 59490 до 77990 руб."
+    },
+    {
+        "id": 98,
+        "name": "Realme Pad Mini",
+        "href": "https://n-katalog.ru/product/realme-pad-mini-64gb",
+        "cost": "от 11617 до 18150 руб."
+    },
+    {
+        "id": 99,
+        "name": "Realme Pad X",
+        "href": "https://n-katalog.ru/product/realme-pad-x-64gb",
+        "cost": "от 17999 руб."
+    },
+    {
+        "id": 100,
+        "name": "Apple iPad Air 2022",
+        "href": "https://n-katalog.ru/product/apple-ipad-air-2022-256gb-5g",
+        "cost": "от 94990 руб."
+    }
+]

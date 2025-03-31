@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Опыт владения больше года",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore\n                    et dolore magna aliqua. Vitae justo eget magna fermentum iaculis eu. Nibh sit amet commodo nulla\n                    facilisi nullam vehicula ipsum. Elit pellentesque habitant morbi tristique senectus et netus et\n                    malesuada."
+    },
+    {
+        "id": 2,
+        "title": "Опыт владения менее месяца",
+        "text": "Semper risus in hendrerit gravida rutrum quisque. Imperdiet sed euismod nisi porta lorem mollis\n                    aliquam. Blandit massa enim nec dui nunc mattis enim. Enim neque volutpat ac tincidunt vitae semper."
+    },
+    {
+        "id": 3,
+        "title": "Опыт владения менее месяца",
+        "text": "Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci. Eget lorem dolor sed\n                    viverra ipsum nunc aliquet. Nunc id cursus metus aliquam eleifend mi in nulla. Aliquam id diam\n                    maecenas ultricies mi eget mauris pharetra. Ut tortor pretium viverra suspendisse potenti."
+    }
+]

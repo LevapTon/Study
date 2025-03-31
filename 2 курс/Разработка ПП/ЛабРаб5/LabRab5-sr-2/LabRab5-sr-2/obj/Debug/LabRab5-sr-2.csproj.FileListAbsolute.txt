@@ -1,0 +1,20 @@
+C:\Users\pp111\source\repos\LabRab5-sr-2\LabRab5-sr-2\bin\Debug\LabRab5-sr-2.exe.config
+C:\Users\pp111\source\repos\LabRab5-sr-2\LabRab5-sr-2\bin\Debug\LabRab5-sr-2.exe
+C:\Users\pp111\source\repos\LabRab5-sr-2\LabRab5-sr-2\bin\Debug\LabRab5-sr-2.pdb
+C:\Users\pp111\source\repos\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5-sr-2.csproj.AssemblyReference.cache
+C:\Users\pp111\source\repos\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5_sr_2.Form1.resources
+C:\Users\pp111\source\repos\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5_sr_2.Properties.Resources.resources
+C:\Users\pp111\source\repos\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5-sr-2.csproj.GenerateResource.cache
+C:\Users\pp111\source\repos\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5-sr-2.csproj.CoreCompileInputs.cache
+C:\Users\pp111\source\repos\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5-sr-2.exe
+C:\Users\pp111\source\repos\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5-sr-2.pdb
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб5\LabRab5-sr-2\LabRab5-sr-2\bin\Debug\LabRab5-sr-2.exe.config
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб5\LabRab5-sr-2\LabRab5-sr-2\bin\Debug\LabRab5-sr-2.exe
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб5\LabRab5-sr-2\LabRab5-sr-2\bin\Debug\LabRab5-sr-2.pdb
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб5\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5-sr-2.csproj.AssemblyReference.cache
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб5\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5_sr_2.Form1.resources
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб5\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5_sr_2.Properties.Resources.resources
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб5\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5-sr-2.csproj.GenerateResource.cache
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб5\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5-sr-2.csproj.CoreCompileInputs.cache
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб5\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5-sr-2.exe
+D:\Учеба\2 курс\Разработка ПП\ЛабРаб5\LabRab5-sr-2\LabRab5-sr-2\obj\Debug\LabRab5-sr-2.pdb

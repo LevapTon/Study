@@ -1,0 +1,89 @@
+# Создание фрейма по данным из файла
+
+svmdata = read.table("./svmdata1.txt", header = TRUE)
+
+# Замена класса "red" на "-1", а класса "green" на 1
+
+svmdata$Color <- ifelse(svmdata$Color == "red", -1, ifelse(svmdata$Color == "green", 1, NA))
+
+# Получение количества объектов
+
+gradient <- function(w, y, x1, x2, l) {
+  
+  # Производная по w0
+  
+  df_w0 = (1/l)*sum((-y*exponent_func(w, y, x2, x2))/(1 + exponent_func(w, y, x2, x2)))
+  
+  # Производная по w1
+  
+  df_w1 = (1/l)*sum((-y*x1*exponent_func(w, y, x1, x2))/(1 +exponent_func(w, y, x2, x2)))
+  
+  # Производная по w2
+  
+  df_w2 = (1/l)*sum((-y*x2*exponent_func(w, y, x1, x2))/(1 + exponent_func(w, y, x2, x2)))
+  
+  c(df_w0, df_w1, df_w2)
+}
+
+exponent_func <- function(w, y, x1, x2) {
+  expon = exp(-y*(w[1] + w[2]*x1 + w[3]*x2))
+}
+
+error_func <- function(w, y, x1, x2, l) {
+  error = (1/l)*sum(log(1+exponent_func(w, y, x1, x2)))
+}
+
+gradient_descent <- function(start, dataset, rate = 0.001, tol = 1e-6, max_steps = 1000000) {
+  
+  # Вектор начальных значений
+  
+  w = c(start[1], start[2], start[3])
+  
+  l = nrow(dataset)
+  
+  iter <- 0
+  
+  repeat {
+    
+    # Счетчик проделанных шагов
+    
+    iter <- iter + 1
+    
+    # Получение градиента
+    
+    grad <- gradient(w, dataset$Color, dataset$X1, dataset$X2, l)
+    
+    #print(grad)
+    
+    # Получение следующих точек
+    
+    w_new = c(w[1] - rate * grad[1], w[2] - rate * grad[2],w[3] - rate * grad[3])
+    
+    w = w_new
+    print(w)
+    
+    # Проверка условия сходимости
+    if ((sqrt(w_new[1] - w[1])^2 + (w_new[2] - w[2])^2 + (w_new[3] - w[3])^2) < tol || iter >= max_steps) {
+      break
+    }
+    
+    # Присваивание новых значений
+    
+    
+  }
+  
+  # Список с точкой экстремума, его значением и кол-вом шагов
+  
+  list(
+    minimum_w0 = round(w[1], 2),
+    minimum_w1 = round(w[2], 2),
+    minimum_w2 = round(w[3], 2),
+    steps = iter
+  )
+}
+
+start_point <- c(0, 0, 0)
+
+result <- gradient_descent(start_point, svmdata)
+
+result

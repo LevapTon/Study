@@ -1,0 +1,10 @@
+D:\Учеба\2 курс\Разработка ПО\LabRab1-sr4\LabRab1-sr4\bin\Debug\LabRab1-sr4.exe.config
+D:\Учеба\2 курс\Разработка ПО\LabRab1-sr4\LabRab1-sr4\bin\Debug\LabRab1-sr4.exe
+D:\Учеба\2 курс\Разработка ПО\LabRab1-sr4\LabRab1-sr4\bin\Debug\LabRab1-sr4.pdb
+D:\Учеба\2 курс\Разработка ПО\LabRab1-sr4\LabRab1-sr4\obj\Debug\LabRab1-sr4.csproj.AssemblyReference.cache
+D:\Учеба\2 курс\Разработка ПО\LabRab1-sr4\LabRab1-sr4\obj\Debug\LabRab1_sr4.Form1.resources
+D:\Учеба\2 курс\Разработка ПО\LabRab1-sr4\LabRab1-sr4\obj\Debug\LabRab1_sr4.Properties.Resources.resources
+D:\Учеба\2 курс\Разработка ПО\LabRab1-sr4\LabRab1-sr4\obj\Debug\LabRab1-sr4.csproj.GenerateResource.cache
+D:\Учеба\2 курс\Разработка ПО\LabRab1-sr4\LabRab1-sr4\obj\Debug\LabRab1-sr4.csproj.CoreCompileInputs.cache
+D:\Учеба\2 курс\Разработка ПО\LabRab1-sr4\LabRab1-sr4\obj\Debug\LabRab1-sr4.exe
+D:\Учеба\2 курс\Разработка ПО\LabRab1-sr4\LabRab1-sr4\obj\Debug\LabRab1-sr4.pdb

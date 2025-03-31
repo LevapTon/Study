@@ -1,0 +1,10 @@
+C:\Users\pp111\source\repos\LabRab6-2\LabRab6-2\bin\Debug\LabRab6-2.exe.config
+C:\Users\pp111\source\repos\LabRab6-2\LabRab6-2\bin\Debug\LabRab6-2.exe
+C:\Users\pp111\source\repos\LabRab6-2\LabRab6-2\bin\Debug\LabRab6-2.pdb
+C:\Users\pp111\source\repos\LabRab6-2\LabRab6-2\obj\Debug\LabRab6-2.csproj.AssemblyReference.cache
+C:\Users\pp111\source\repos\LabRab6-2\LabRab6-2\obj\Debug\LabRab6_2.Form1.resources
+C:\Users\pp111\source\repos\LabRab6-2\LabRab6-2\obj\Debug\LabRab6_2.Properties.Resources.resources
+C:\Users\pp111\source\repos\LabRab6-2\LabRab6-2\obj\Debug\LabRab6-2.csproj.GenerateResource.cache
+C:\Users\pp111\source\repos\LabRab6-2\LabRab6-2\obj\Debug\LabRab6-2.csproj.CoreCompileInputs.cache
+C:\Users\pp111\source\repos\LabRab6-2\LabRab6-2\obj\Debug\LabRab6-2.exe
+C:\Users\pp111\source\repos\LabRab6-2\LabRab6-2\obj\Debug\LabRab6-2.pdb

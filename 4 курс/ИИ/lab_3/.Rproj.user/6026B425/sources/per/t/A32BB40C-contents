@@ -1,0 +1,8 @@
+
+#swiss = read.table("./swiss.txt", header = TRUE)
+swiss_m = swiss[,2:6]
+
+swiss_pca = prcomp(swiss_m)
+
+fviz_eig(swiss_pca, addlabels = TRUE, xlab = names(swiss_m), 
+         main = "Диаграма зависимости компонент", ylab = "Процент объяснения изменчивости")

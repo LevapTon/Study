@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Вход в аккаунт</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<body>
+    <h3 class="page-head-title">Вход в аккаунт</h3>
+    <form class="page-head">
+        <div class="addBox">
+            <div class="addBoxItem">
+                <p>Логин</p>
+                <input 
+                    class="page-head-elements"
+                    type="text" 
+                    name="name" 
+                    value="" 
+                    placeholder="Введите логин"
+                />
+            </div>
+            <div class="addBoxItem">
+                <p>Пароль</p>
+                <input 
+                    class="page-head-elements"
+                    type="password" 
+                    name="password" 
+                    value="" 
+                    placeholder="Введите пароль"
+                />
+            </div>
+            <div class="addBoxItem">
+                <button
+                    type="submit" 
+                    class="page-head-elements"
+                    formaction="/login" 
+                    formmethod="post">
+                    Войти
+                </button>
+                <button
+                    type="submit" 
+                    class="page-head-elements"
+                    formaction="/" 
+                    formmethod="get">
+                    На главную
+                </button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

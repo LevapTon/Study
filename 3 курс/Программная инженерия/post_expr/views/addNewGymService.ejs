@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Изменение услуг</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<body>
+    <h2 class="page-head-title">Изменение услуг</h2>
+    <div>
+        <form class="page-head" action="POST">
+            <div class="addBox">
+                <fieldset>
+                    <legend>Выберите секции</legend>
+                    <% for (let i = 0; i < result[0].length; i++) { %>
+                    <div>
+                        <input type="checkbox" id="sec" name="sections" value="<%= result[0][i].section_id %>" <% if (result[2].includes(result[0][i].section_id)) { %>checked<% } %> />
+                        <label for="sec"><%= result[0][i].section_name %></label>
+                    </div>
+                    <% } %>
+                </fieldset>
+                <div class="addBoxItem">
+                    <button 
+                        type="submit" 
+                        class="page-head-elements"
+                        formaction="/addNewGymService/:<%= result[1] %>" 
+                        formmethod="post">
+                        Добавить
+                    </button>
+                </div>
+            </div>
+        </form>
+        <form action="GET">
+            <button 
+                class="del"
+                formaction="/" 
+                formmethod="get">
+                На главную
+            </button>
+        </form>
+    </div>    
+</body>
+</html>

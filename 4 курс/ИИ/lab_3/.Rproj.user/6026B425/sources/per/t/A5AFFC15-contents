@@ -1,0 +1,11 @@
+# Чтение данных
+
+votes = read.table("./votes.repub.txt", header = TRUE)
+votes[is.na(votes)] = 0
+votes = votes[,2:32]
+
+votes_d = dist(votes)
+
+votes_h = hclust(votes_d)
+
+plot(votes_h, main = "Дендрограма votes.repub")

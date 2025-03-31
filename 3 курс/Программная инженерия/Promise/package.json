@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "request": "^2.88.2"
+  }
+}

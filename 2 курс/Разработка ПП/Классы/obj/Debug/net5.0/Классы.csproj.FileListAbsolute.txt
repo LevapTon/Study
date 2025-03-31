@@ -1,0 +1,16 @@
+D:\Учеба\2 курс\Разработка ПП\Классы\obj\Debug\net5.0\Классы.csproj.AssemblyReference.cache
+D:\Учеба\2 курс\Разработка ПП\Классы\obj\Debug\net5.0\Классы.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\2 курс\Разработка ПП\Классы\obj\Debug\net5.0\Классы.AssemblyInfoInputs.cache
+D:\Учеба\2 курс\Разработка ПП\Классы\obj\Debug\net5.0\Классы.AssemblyInfo.cs
+D:\Учеба\2 курс\Разработка ПП\Классы\obj\Debug\net5.0\Классы.csproj.CoreCompileInputs.cache
+D:\Учеба\2 курс\Разработка ПП\Классы\bin\Debug\net5.0\Классы.exe
+D:\Учеба\2 курс\Разработка ПП\Классы\bin\Debug\net5.0\Классы.deps.json
+D:\Учеба\2 курс\Разработка ПП\Классы\bin\Debug\net5.0\Классы.runtimeconfig.json
+D:\Учеба\2 курс\Разработка ПП\Классы\bin\Debug\net5.0\Классы.runtimeconfig.dev.json
+D:\Учеба\2 курс\Разработка ПП\Классы\bin\Debug\net5.0\Классы.dll
+D:\Учеба\2 курс\Разработка ПП\Классы\bin\Debug\net5.0\Классы.pdb
+D:\Учеба\2 курс\Разработка ПП\Классы\obj\Debug\net5.0\Классы.dll
+D:\Учеба\2 курс\Разработка ПП\Классы\obj\Debug\net5.0\ref\Классы.dll
+D:\Учеба\2 курс\Разработка ПП\Классы\obj\Debug\net5.0\Классы.pdb
+D:\Учеба\2 курс\Разработка ПП\Классы\obj\Debug\net5.0\Классы.genruntimeconfig.cache
+D:\Учеба\2 курс\Разработка ПП\Классы\obj\Debug\net5.0\refint\Классы.dll
