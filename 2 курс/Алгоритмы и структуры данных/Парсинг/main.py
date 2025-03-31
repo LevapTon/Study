@@ -1,19 +1,17 @@
 import requests
 
-
 def get_html(url):
     ob = requests.get(url)
     ob.encoding = "utf-8"
     html = ob.text
     return html
 
-
 def get_coll_of_hrefs(oKey, mKey, cKey, html):
     links = []
     names = []
-    posSt = html.find(oKey)  # <a class="links" href="
-    posM = html.find(mKey, posSt)  # " target=_blank>
-    posEn = html.find(cKey, posSt)  # </a>
+    posSt = html.find(oKey)
+    posM = html.find(mKey, posSt)
+    posEn = html.find(cKey, posSt)
     while html.find(oKey, posSt) > 0:
         link = html[posSt + len(oKey):posM]
         name = html[posM + len(mKey):posEn]
@@ -25,19 +23,16 @@ def get_coll_of_hrefs(oKey, mKey, cKey, html):
         posEn = html.find(cKey, posEn + len(cKey))
     create_csv_doc(links, names)
 
-
 def create_csv_doc(links, names):
-    with open ("Files.csv", "w", encoding="utf-8") as f:
+    with open("Files.csv", "w", encoding="utf-8") as f:
         f.write('id,href,name\n')
         for i in range(len(links)):
             f.write("{0},{1},{2}\n".format(i + 1, links[i], names[i]))
 
-
 def get_first_href(oKey, mKey, cKey, html, pos):
-    posSt = html.find(oKey, pos)  # <a class="links" href="
-    posM = html.find(mKey, posSt)  # " target=_blank>
-    posEn = html.find(cKey, posSt)  # </a>
-    print(posSt, posM, posEn)
+    posSt = html.find(oKey, pos)
+    posM = html.find(mKey, posSt)
+    posEn = html.find(cKey, posSt)
     if posSt > 0:
         posR = html.find(cKey, posSt) + 1
         link = html[posSt + len(oKey):posM]
@@ -45,23 +40,16 @@ def get_first_href(oKey, mKey, cKey, html, pos):
         res = (posR, link, name)
     return res
 
+ua = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"}
 
-ua = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" }
+def main():
+    url = "https://pcoding.ru/darkNet.php"
+    html = get_html(url)
+    openKey = '<a class="links" href="'
+    midKey = '" target=_blank>'
+    closeKey = '</a>'
+    pos = int(input("Enter position: "))
+    get_coll_of_hrefs(openKey, midKey, closeKey, html)
 
-url = "https://pcoding.ru/darkNet.php"
-html = get_html(url)
-openKey = '<a class="links" href="'
-midKey = '" target=_blank>'
-closeKey = '</a>'
-pos = int(input())
-get_coll_of_hrefs(openKey, midKey, closeKey, html)
-# print(get_first_href(openKey, midKey, closeKey, html, pos))
-# print(html)
-
-
-"""
-<a class="links" href="https://pcoding.ru/pdf/AgroRobot.pdf" 
-    target=_blank>
-        AgroRobot.pdf
-</a>
-"""
+if __name__ == "__main__":
+    main()
